@@ -1,0 +1,31 @@
+.navbar-brand a {
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.navbar-brand h1  {
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.select{
+	float: right;
+}
+.fab{
+  padding: 5px;
+  margin: 5px;
+  font-size: 25px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #55ACEE;
+  color: white;
+}
+div.box-cta{
+    margin-bottom: 1px;
+}
+.has-text-centered>a{
+	padding: 20px;
+}
+.footer{
+	margin-top: -20px;
+}
