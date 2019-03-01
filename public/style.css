@@ -29,3 +29,6 @@ div.box-cta{
 .footer{
 	margin-top: -20px;
 }
+.FootHeader{
+	display: inline-flex;
+}

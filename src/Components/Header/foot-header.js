@@ -4,36 +4,29 @@ import React from 'react';
 class FootHeader extends React.Component{
 render(){
 	return(
-	<div className="dropdown is-hoverable">
-  <div className="dropdown-trigger">
-    <button className="button" aria-haspopup="true" aria-controls="dropdown-menu">
-      <span>Dropdown button</span>
-      <span className="icon is-small">
-        <i className="fas fa-angle-down" aria-hidden="true"></i>
-      </span>
-    </button>
-  </div>
-  <div className="dropdown-menu" id="dropdown-menu" role="menu">
-    <div className="dropdown-content">
-      <a href="#" className="dropdown-item">
-        Dropdown item
+<nav class="navbar" role="navigation" aria-label="dropdown navigation">
+  <div class="navbar-item has-dropdown is-hoverable">
+    <a class="navbar-link">
+      Docs
+    </a>
+
+    <div class="navbar-dropdown">
+      <a class="navbar-item">
+        Overview
       </a>
-      <a className="dropdown-item">
-        Other dropdown item
+      <a class="navbar-item">
+        Elements
       </a>
-      <a href="#" className="dropdown-item is-active">
-        Active dropdown item
+      <a class="navbar-item">
+        Components
       </a>
-      <a href="#" className="dropdown-item">
-        Other dropdown item
-      </a>
-      <hr className="dropdown-divider"/>
-      <a href="#" className="dropdown-item">
-        With a divider
-      </a>
+      <hr class="navbar-divider"/>
+      <div class="navbar-item">
+        Version 0.7.4
+      </div>
     </div>
   </div>
-</div>
+</nav>	
 		);
 }
 }

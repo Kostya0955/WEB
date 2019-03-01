@@ -2,10 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import FootHeader from './Components/Header/foot-header.js';
 import Footer from './Components/Footer/footer.js';
-import Carousel from './Components/Carousel.js'
+import Carousel from './Components/Carousel.js';
+import FooterNav from './Components/NavAboveFooter/FooterNav.js';
+import Articles from './Components/Articles/Articles.js'
+
 
 class App extends React.Component{
 	render(){
+		let i=0;
 		return(
 <div>
 <section className="hero is-primary">
@@ -33,8 +37,17 @@ class App extends React.Component{
 		      </h1>
 		</div>
     </div>
-     <FootHeader/>
+
+    
+
+    <div className ="FootHeader">
+    	<FootHeader/>     
+    </div>
+
+
+   
 </section>
+
   <Carousel slides={[
 	{
 		'image': 'https://place-hold.it/500x500&text=slide1',
@@ -46,15 +59,10 @@ class App extends React.Component{
 	}
 
   ]} />
-	 <div className="box cta">
-        <p class="has-text-centered">
-          <a> LINK 1  </a>
-           <a> LINK 2  </a>
-             <a> LINK 2  </a>
-               <a> LINK 2  </a>
-        </p>
+	 
+<Articles/>
 
-    </div> 
+<FooterNav/>
 
 <Footer/>
 
