@@ -4,35 +4,30 @@ import FootHeader from './Components/Header/foot-header.js';
 import Footer from './Components/Footer/footer.js';
 import Carousel from './Components/Carousel.js';
 import FooterNav from './Components/NavAboveFooter/FooterNav.js';
-import Articles from './Components/Articles/Articles.js'
+import Articles from './Components/Articles/Articles.js';
+import {addLocaleData, IntlProvider} from 'react-intl';
+import en from 'react-intl/locale-data/en';
+import ru from 'react-intl/locale-data/ru';
+import message from './Components/message.js';
+import {flattenMessages} from './Components/utils.js';
+import {FormattedMessage} from 'react-intl';
 
 
 class App extends React.Component{
 	render(){
 		let i=0;
 		return(
+			
 <div>
 <section className="hero is-primary">
-<div class="field">
-  <p class="control has-icons-left">
-    <span class="select">
-      <select>
-        <option selected>Country</option>
-        <option>Select dropdown</option>
-        <option>With options</option>
-      </select>
-    </span>
-    <span class="icon is-small is-left">
-      <i class="fas fa-globe"></i>
-    </span>
-  </p>
-</div>
+
     <div className="container">
 	    <div className="navbar-brand">
 			<a>
 		  		<img src="https://bulma.io/images/placeholders/128x128.png"/>
 			</a>
 			 <h1 className="title">
+			 <FormattedMessage id="detail.toggle"/>
 		        Факультет Международных образовательных программ МГТУ им. Н.Э.Баумана
 		      </h1>
 		</div>
@@ -68,8 +63,20 @@ class App extends React.Component{
 
 </div>
 
+
 		);
 	}
 }
-ReactDOM.render(<App/>, document.getElementById('root'));
+addLocaleData([...en, ...ru]);
+let locale = 
+	(navigator.languages && navigator.languages[0])
+	|| navigator.language
+	|| navigator.userLanguage
+	|| 'en';
+
+ReactDOM.render(
+	<IntlProvider locale={locale} message={flattenMessages(message[locale])}>
+		<App/>
+	</IntlProvider>,
+	 document.getElementById('root'));
 
