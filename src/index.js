@@ -7,6 +7,7 @@ import FooterNav from './Components/NavAboveFooter/FooterNav.js';
 import Articles from './Components/Articles/Articles.js';
 
 
+
 class App extends React.Component{
 	render(){
 		let i=0;
@@ -63,6 +64,7 @@ class App extends React.Component{
 
 
 ReactDOM.render(
+	
 		<App/>,
 	 document.getElementById('root'));
 

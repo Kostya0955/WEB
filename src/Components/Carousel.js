@@ -32,6 +32,7 @@ export default class Carousel extends React.Component {
 
 	render () {
 		return (
+			
 			<div className='columns'>
 				<div className='column is-4'>
 					<figure className='image is-square'>
@@ -39,6 +40,7 @@ export default class Carousel extends React.Component {
 					</figure>
 				</div>
 				<div className='column is-8'>
+					<h1 className="title"> Новость 1 </h1>
 					<p>{this.state.text}</p>
 				</div>
 			</div>
