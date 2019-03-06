@@ -71,5 +71,22 @@ div.FooterNav>.navbar{
   opacity: 0.01;
   transition: opacity 300ms ease-in;
 }
+div.container>h1{
+	font-weight: bold;
+}
+.footer ul>li{
+	margin-bottom: 10px;
+}
 
+@media(min-width: 900px){
+	span>footer.footer{
+	height: 200px;
+}
+}
+div.dropdown button{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    outline:none;
+}
 

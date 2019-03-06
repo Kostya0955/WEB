@@ -1,0 +1,48 @@
+@import "./variables.scss";
+
+
+footer {
+	background-color: $footer !important;
+
+}
+nav.navbar {
+	background-color: $footer-nav !important;
+}
+h1,strong,a {
+	color: $mainColor !important;
+}
+section.hero {
+	background-color: $footer-nav !important;
+}
+div.container>h1 {
+	color: $mainColor !important;
+	font-style: bold !important;
+}
+span>footer.footer {
+	border-top: 1px solid $mainColor  !important;
+	background-color: $footer-nav !important;
+}
+div.dropdown:hover {
+   background-color: $hover  !important; 
+}
+div.dropdown-content {
+	background-color: $dropdown !important;
+	
+}
+div.dropdown-content a {
+ color: $test !important;
+}
+
+div.dropdown-content a:hover {
+ background-color: $footer !important; 
+ color: $hoverText !important; 
+}
+.dropdown-trigger span{
+ color: $hoverText !important; 
+}
+a.navbar-link:hover{
+	background-color: $footer !important; 
+}
+.FooterNav a.navbar-item:hover{
+	background-color: $footer !important; 
+}

@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import FootHeader from './Components/Header/foot-header.js';
-import Footer from './Components/Footer/footer.js';
+import FootHeader from './Components/foot-header.js';
+import Footer from './Components/footer.js';
 import Carousel from './Components/Carousel.js';
-import FooterNav from './Components/NavAboveFooter/FooterNav.js';
-import Articles from './Components/Articles/Articles.js';
-
+import FooterNav from './Components/FooterNav.js';
+import Articles from './Components/Articles.js';
+import  './styles.scss';
 
 
 class App extends React.Component{
