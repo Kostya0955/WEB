@@ -3,9 +3,9 @@
 class Articles extends React.Component{
 render(){
     return(
-    <footer class="footer">
+    <footer class="article">
             <div class="container">
-             <h1> ЗАГОЛОВОК </h1>
+             <h1> НОВОСТИ </h1>
                 <div class="columns">
                     <div class="column is-3 is-offset-1">
                         <a>

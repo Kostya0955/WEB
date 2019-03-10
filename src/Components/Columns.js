@@ -10,18 +10,18 @@ render(){
                     <div class="column is-3 is-offset-2">
                        
                         <ul>
-                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                            <li><a href="#">Vestibulum errato isse</a></li>
-                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="#">Приемная комиссия</a></li>
+                            <li><a href="#">Институты</a></li>
+                            <li><a href="#">Поступающим</a></li>
                           
                         </ul>
                     </div>
                     <div class="column is-3">
                         
                         <ul>
-                            <li><a href="#">Labore et dolore magna aliqua</a></li>
-                            <li><a href="#">Kanban airis sum eschelor</a></li>
-                            <li><a href="#">Modular modern free</a></li>
+                            <li><a href="#">Сведения </a></li>
+                            <li><a href="#">Структура Университета</a></li>
+                            <li><a href="#">История</a></li>
                            
                             
                         </ul>
@@ -29,9 +29,9 @@ render(){
                     <div class="column is-4">
                         
                         <ul>
-                       		<li><a href="#">Labore et dolore magna aliqua</a></li>
-                            <li><a href="#">Kanban airis sum eschelor</a></li>
-                            <li><a href="#">Modular modern free</a></li>
+                       		<li><a href="#">Сотрудникам</a></li>
+                            <li><a href="#">Ученый совет</a></li>
+                            <li><a href="#">Выпускникам</a></li>
                             
                   
                        </ul>

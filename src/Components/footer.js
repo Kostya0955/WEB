@@ -10,9 +10,9 @@ render(){
                     <div class="column is-3 is-offset-2">
                         <h2><strong>О факультете</strong></h2>
                         <ul>
-                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                            <li><a href="#">Vestibulum errato isse</a></li>
-                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="#">Обучающимся</a></li>
+                            <li><a href="#">Расписание</a></li>
+                            <li><a href="#">Общая информация</a></li>
                           
                         </ul>
 
@@ -21,10 +21,10 @@ render(){
                     <div class="column is-3">
                         <h2><strong>Контакты</strong></h2>
                         <ul>
-                            <li><a href="#">Labore et dolore magna aliqua</a></li>
-                            <li><a href="#">Kanban airis sum eschelor</a></li>
-                            <li><a href="#">Modular modern free</a></li>
-                            <li><a href="#">The king of clubs</a></li>
+                            <li><a href="#">Адрес</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Схема проезда</a></li>
+                            <li><a href="#">Администрация</a></li>
                             
                         </ul>
                     </div>

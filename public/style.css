@@ -83,10 +83,47 @@ div.container>h1{
 	height: 200px;
 }
 }
-div.dropdown button{
+div.dropdown button {
 	background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
     outline:none;
 }
+
+.Slider-article {
+  margin-bottom: 40px;
+}
+.Slider-article img {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+footer.article{
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+.Slider-article h2{
+  margin-left: 20px;
+}
+.Slider-article h3{
+  margin-left: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.Article{
+  margin-left: 50px;
+}
+.Article img {
+  border-radius: 8px;
+  box-shadow: 3px 3px grey;
+
+}
+
+@media(max-width: 600px){
+  div.Article{
+  padding-right: 30px;
+}
+}
+
+
+
 

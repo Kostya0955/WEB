@@ -6,6 +6,12 @@ import Carousel from './Components/Carousel.js';
 import FooterNav from './Components/FooterNav.js';
 import Articles from './Components/Articles.js';
 import  './styles.scss';
+import Swiper from 'react-id-swiper';
+import Slider from './Components/slider.js';
+
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 
 
 class App extends React.Component{
@@ -36,7 +42,7 @@ class App extends React.Component{
 
    
 </section>
-
+ 
   <Carousel slides={[
 	{
 		'image': 'https://place-hold.it/500x500&text=slide1',
@@ -48,8 +54,9 @@ class App extends React.Component{
 	}
 
   ]} />
-	 
+<Slider/>	
 <Articles/>
+
 
 <FooterNav/>
 
