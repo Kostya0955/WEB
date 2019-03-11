@@ -8,7 +8,7 @@ import Articles from './Components/Articles.js';
 import  './styles.scss';
 import Swiper from 'react-id-swiper';
 import Slider from './Components/slider.js';
-
+import News from './Components/news.js';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
@@ -55,7 +55,8 @@ class App extends React.Component{
 
   ]} />
 <Slider/>	
-<Articles/>
+<News/>
+
 
 
 <FooterNav/>
